@@ -37,7 +37,7 @@ public class LoginPage {
                 String username = userText.getText();
                 String password = new String(passText.getPassword());
 
-                if (username.equals("a") && password.equals("a")) {
+                if (username.equals("123230151") && password.equals("pass12345")) {
                     frame.dispose();
                     HomePage home = new HomePage(username);
                     home.setVisible(true);
